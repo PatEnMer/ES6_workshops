@@ -1,7 +1,7 @@
 (function() {
-	if (true) {
-		let firstName = 'Pat';
-		// deklaracja zmiennej przez let jest dostępna tylko w zakresie w którym została utworzona. w innym przypadku otrzmujemy reference error
+	for (let i = 0; i < 10; i++) {
+		console.log(i);
 	}
-	console.log(firstName);
+	// deklaracja zmiennej w pętli za pomocą let, pozwala uniknąć jej wykorzystania poza scopem
+	console.log('i: ' + i);
 })();
