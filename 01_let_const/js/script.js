@@ -9,7 +9,7 @@
 		name: 'Pat'
 	};
 
-	// obj = 'zasea';
+	// obj = 'zase';
 
 	obj.name = 'Pioter';
 	// wartość zmiennej zawartej w const jest możliwa do zmiany, ale nie można przypisywać do zmienniej czegoś zupełnie nowego
