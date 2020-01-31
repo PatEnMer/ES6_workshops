@@ -1,6 +1,7 @@
 (function() {
 	if (true) {
-		var name = 'Pat';
+		let firstName = 'Pat';
+		// deklaracja zmiennej przez let jest dostępna tylko w zakresie w którym została utworzona. w innym przypadku otrzmujemy reference error
 	}
-	console.log(name);
+	console.log(firstName);
 })();
