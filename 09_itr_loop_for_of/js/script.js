@@ -19,4 +19,4 @@ for (let val of iterator) {
 
 let arr = [ ...iterator ];
 
-console.log(Math.max(...iterator));
+console.log(Math.max(...arr));
